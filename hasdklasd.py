@@ -24,6 +24,7 @@ def send_analog_values():
 
 
 def send_dpi_values():
+    # 36000 / MPH = Period/dpi_value
     dpi_values = [5217, 521, 500, 1]
 
     while True:
